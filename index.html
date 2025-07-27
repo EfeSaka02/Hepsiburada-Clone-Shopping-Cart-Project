@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hepsiburada Klon</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="image_src" href="hepsiburada-logo.png" />
+  </head>
+  <body>
+    <div class="header">
+      <!-- Headeri kullanmamizin nedeni navbar yani ustteki anasayfa kategoriler markalar indirimler gibi basligi ust tarafta bir arada tutmak icin kullanilir-->
+      <div class="logo">Hepsiburada</div>
+      <div class="search-bar">
+        <input type="text" placeholder="Urun, kategori veya marka ara" />
+        <button>Ara</button>
+      </div>
+      <div class="header-right">
+        <button id="loginBtn">Giris Yap</button>
+        <button id="sepetBtn">Sepetim</button>
+      </div>
+    </div>
+
+    <nav class="category-bar">
+      <ul class="category-list">
+        <li>Elektronik</li>
+        <li>Moda</li>
+        <li>Ev,Yasam,Kirtasiye,Ofis</li>
+        <li>Oto,Bahce,Yapi Market</li>
+        <li>Anne,Bebek,Oyuncak</li>
+        <li>Spor,Outdoor</li>
+        <li>Kozmetik, Kisisel Bakim</li>
+        <li>Kitap,Muzik,Film,Hobi</li>
+      </ul>
+    </nav>
+
+    <!--Slider-->
+
+    <div class="slider">
+      <img
+        src="https://images.hepsiburada.net/banners/s/1/640-200/slider_(32)133959123110315888.png/format:webp"
+        alt="Slider"
+      />
+    </div>
+
+    <!--Urunler-->
+
+    <div class="products-section">
+      <h2>Popüler Ürünler</h2>
+
+      <div class="urunler-container">
+        <button class="kaydir-sol">&#10094;</button>
+
+        <div class="urunler-scroll" id="urunlerScroll">
+          <div class="product-card">
+            <img
+              src="https://productimages.hepsiburada.net/s/777/200-200/110001087092718.jpg/format:webp"
+              alt="Oversize Gomlek"
+            />
+            <h3>Oversize Basic Muslin Gomlek Seftali</h3>
+            <p class="price">499,90 TL</p>
+            <button class="add-to-cart">Sepete ekle</button>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://productimages.hepsiburada.net/s/777/424-600/110000988494872.jpg"
+              alt="Vestel Vakum Makinesi"
+            />
+            <h3>Vestel Vakum Makinesi</h3>
+            <p class="price">1499,90 TL</p>
+            <button class="add-to-cart">Sepete ekle</button>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://productimages.hepsiburada.net/s/777/424-600/110000709534531.jpg/format:webp"
+              alt="Kiwi KCC-4325W Koltuk Ve Hali Yikama Makinesi"
+            />
+            <h3>Kiwi KCC-4325W Koltuk Ve Hali Yikama Makinesi</h3>
+            <p class="price">5199,90 TL</p>
+            <button class="add-to-cart">Sepete ekle</button>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://productimages.hepsiburada.net/s/221/424-600/110000200585161.jpg/format:webp"
+              alt="Tefal 500 ML Manuel Rondo"
+            />
+            <h3>Tefal 500 ML Manuel Rondo</h3>
+            <p class="price">679,15 TL</p>
+            <button class="add-to-cart">Sepete ekle</button>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://productimages.hepsiburada.net/s/777/200-200/110001023571413.jpg/format:webp"
+              alt="Uniqamping Kamp Sandalyesi"
+            />
+            <h3>Uniqamping Pro HI Katlanır Kamp Sandalyesi</h3>
+            <p class="price">1399,00 TL</p>
+            <button class="add-to-cart">Sepete ekle</button>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://productimages.hepsiburada.net/s/394/200-200/110000418530039.jpg/format:webp"
+              alt="Kiwi Sensorlu Tuz & Karabiber Degirmeni"
+            />
+            <h3>Kiwi Sensorlu Tuz & Karabiber Degirmeni</h3>
+            <p class="price">419,99 TL</p>
+            <button class="add-to-cart">Sepete ekle</button>
+          </div>
+        </div>
+        <!-- ürünler-scroll bitişi -->
+
+        <button class="kaydir-sag">&#10095;</button>
+      </div>
+      <!-- urunler-container bitişi -->
+    </div>
+    <!-- products-section bitişi -->
+
+    <div class="Reklam-Bolumu">
+      <img
+        src="https://images.hepsiburada.net/banners/s/1/416-182/appbanner133965197461127389.png/format:webp"
+        alt=""
+      />
+      <img
+        src="https://images.hepsiburada.net/banners/s/1/416-182/appbanner133965577505021785.png/format:webp"
+        alt=""
+      />
+      <img
+        src="https://images.hepsiburada.net/banners/s/1/416-182/yaz_always_on_elektronik_app_banner_(1)133955001074734936.png/format:webp"
+        alt=""
+      />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

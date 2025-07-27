@@ -36,10 +36,3 @@ This is a basic shopping cart application built with HTML, CSS, and JavaScript. 
 - You can remove individual items without affecting others.
 
 This project was created for learning and practicing basic front-end development skills.
-## ScreenShots
-
-<img width="1920" height="1080" alt="Ekran Resmi 2025-07-27 18 57 58" src="https://github.com/user-attachments/assets/16c778d5-7631-4c8e-8469-cece08d30b28" />
-
-<img width="1920" height="1080" alt="Ekran Resmi 2025-07-27 18 50 21" src="https://github.com/user-attachments/assets/94aacac2-c7c3-4caf-bdb9-3f6f838f24af" />
-
-<img width="1920" height="1080" alt="Ekran Resmi 2025-07-27 18 50 10" src="https://github.com/user-attachments/assets/6b1694cc-d063-4a13-b76e-a14659a3fd97" />
